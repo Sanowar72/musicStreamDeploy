@@ -43,7 +43,7 @@ public class UserAdminController {
             songService.saveSong(song);
             return "song Added...";
         }else {
-            throw new RuntimeException("Invalid email or password."); // Or use a more specific exception type if needed
+            throw new RuntimeException("Invalid email or password.");
         }
 
     }
